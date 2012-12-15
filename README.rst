@@ -471,7 +471,7 @@ These tags can by accessed by loading the media template tag collection.
 
 Any tag that has a path argument can use either a string or a variable::
 
-    {% media_url "images/avatar.png" }
+    {% media_url "images/avatar.png" %}
     {% media_url user.profile.avatar_path %}
 
 If you'd like to make the mediasync tags global, you can add the following to
